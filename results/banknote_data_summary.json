@@ -1,0 +1,17 @@
+{
+  "dataset": "UCI Banknote Authentication",
+  "source": "https://archive.ics.uci.edu/dataset/267/banknote+authentication",
+  "rows": 1372,
+  "features": [
+    "variance",
+    "skewness",
+    "kurtosis",
+    "entropy"
+  ],
+  "missing_values": 0,
+  "duplicate_rows": 24,
+  "class_counts": {
+    "0": 762,
+    "1": 610
+  }
+}

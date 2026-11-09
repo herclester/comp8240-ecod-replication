@@ -1,0 +1,114 @@
+[
+  {
+    "case_id": "C001",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 2.915 and the largest contribution of 0.766 from feature_3 match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C002",
+    "attribution": 0,
+    "numerical_accuracy": 0,
+    "scope": 1,
+    "total_out_of_3": 1,
+    "reason": "The total of 17.501 matches, but variance contributed about 4.828. Skewness and kurtosis tie for the largest contribution at 5.521460917862246 each."
+  },
+  {
+    "case_id": "C003",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 17.501 matches, and both skewness and kurtosis are correctly named as tied at 5.521460917862246 each, reported as 5.521."
+  },
+  {
+    "case_id": "C004",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 5.158 and the largest contribution of 1.871 from kurtosis match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C005",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 7.274 and the largest contribution of 2.900 from feature_1 match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C006",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 5.445 and the largest contribution of 2.040 from feature_4 match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C007",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 3.296 and the largest contribution of 0.942 from entropy match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C008",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 3.009 and the largest contribution of 0.787 from feature_3 match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C009",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 22.142 matches, and both feature_1 and feature_3 are correctly named as tied at 6.907755278982137 each, reported as 6.908."
+  },
+  {
+    "case_id": "C010",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 5.384 and the largest contribution of 2.129 from feature_3 match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C011",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 7.163 and the largest contribution of 1.852 from feature_1 match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C012",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 0,
+    "total_out_of_3": 2,
+    "reason": "The total of 22.142 and the tie between feature_1 and feature_3 at 6.908 each are correctly reported within tolerance. The claim that the score proves the row is truly anomalous exceeds the supplied evidence."
+  },
+  {
+    "case_id": "C013",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 7.648 and the largest contribution of 3.324 from entropy match the recorded values within tolerance."
+  },
+  {
+    "case_id": "C014",
+    "attribution": 1,
+    "numerical_accuracy": 1,
+    "scope": 1,
+    "total_out_of_3": 3,
+    "reason": "The total of 15.326 and the largest contribution of 6.215 from feature_1 match the recorded values within tolerance."
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "status": "prepared; judging pending",
+  "datasets": [
+    {
+      "dataset": "banknote",
+      "rows": 200,
+      "selected_ranks": [
+        1,
+        67,
+        134,
+        200
+      ],
+      "maximum_absolute_sum_error": "2.0E-15",
+      "sha256": "48a12e443974de1322eae6ffde0c06cb0a85a0d7543d2b35657e93dff44f362a"
+    },
+    {
+      "dataset": "synthetic_extreme",
+      "rows": 400,
+      "selected_ranks": [
+        1,
+        134,
+        267,
+        400
+      ],
+      "maximum_absolute_sum_error": "2.2E-15",
+      "sha256": "bfd2ec6262cf914253885bd385ce45fafdae86c4c401a95662fa92308c08d7dd"
+    },
+    {
+      "dataset": "synthetic_relationship",
+      "rows": 400,
+      "selected_ranks": [
+        1,
+        134,
+        267,
+        400
+      ],
+      "maximum_absolute_sum_error": "2.7E-15",
+      "sha256": "06585f33152a3f0bdac581662217aaa9790c4bbf098086cdd252b93a5b687e3a"
+    }
+  ],
+  "sum_tolerance": "absolute 1e-9 + relative 1e-12 * abs(score)",
+  "tie_rule": "exact equality of unrounded decimal values in source CSV",
+  "precision": "Reference numbers are strings preserving all source CSV digits.",
+  "ordering": "Fixed shuffle seed 8240; neutral case IDs assigned after shuffling."
+}

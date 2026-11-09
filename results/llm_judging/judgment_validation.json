@@ -1,0 +1,39 @@
+{
+  "status": "valid",
+  "case_count": 14,
+  "ids_once": true,
+  "binary_scores": true,
+  "correct_totals": true,
+  "source_hashes_unchanged": true,
+  "regular_count": 12,
+  "regular_pass_counts": {
+    "attribution": 12,
+    "numerical_accuracy": 12,
+    "scope": 12
+  },
+  "regular_three_out_of_three": 12,
+  "controls": [
+    {
+      "case_id": "C002",
+      "intended_failure": "attribution",
+      "intended_criterion_failed": true,
+      "attribution": 0,
+      "numerical_accuracy": 0,
+      "scope": 1,
+      "total_out_of_3": 1,
+      "reason": "The total of 17.501 matches, but variance contributed about 4.828. Skewness and kurtosis tie for the largest contribution at 5.521460917862246 each."
+    },
+    {
+      "case_id": "C012",
+      "intended_failure": "scope",
+      "intended_criterion_failed": true,
+      "attribution": 1,
+      "numerical_accuracy": 1,
+      "scope": 0,
+      "total_out_of_3": 2,
+      "reason": "The total of 22.142 and the tie between feature_1 and feature_3 at 6.908 each are correctly reported within tolerance. The claim that the score proves the row is truly anomalous exceeds the supplied evidence."
+    }
+  ],
+  "disagreement_count": 0,
+  "raw_response_sha256": "f28f460d326f894c2747d3665bcbda016f7fd7322f8936b34f43f0b4a1c28f33"
+}

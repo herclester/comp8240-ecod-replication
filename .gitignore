@@ -1,0 +1,36 @@
+# Environments, generated input data, and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+data/*
+!data/README.md
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.agents/
+*.pem
+*.key
+credentials*
+secrets*
+# Private working artifacts and excluded experiments
+**/local_case_key.json
+**/evidence_audit.json
+**/convenor_followup*/
+**/*convenor_followup*
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

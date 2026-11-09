@@ -1,0 +1,33 @@
+{
+  "python": "3.13.7",
+  "packages": {
+    "pyod": "3.6.5",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.6"
+  },
+  "test_fraction": 0.4,
+  "split_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "stratified": true,
+  "preprocessing": "No scaling or feature removal",
+  "ecod": {
+    "contamination": 0.1,
+    "n_jobs": 1
+  },
+  "shuttle_sampling": "Uniform sample of 10000 rows; seed 2026",
+  "scoring_note": "Current PyOD ECOD scores the test batch using empirical distributions computed from combined training and test features.",
+  "paper_reference": "https://arxiv.org/abs/2201.00382",
+  "comparison_table": "Table IV, ECOD column"
+}

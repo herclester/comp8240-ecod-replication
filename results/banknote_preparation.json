@@ -1,0 +1,30 @@
+{
+  "original_rows": 1372,
+  "clean_rows": 1348,
+  "duplicates_removed": 24,
+  "seed": 42,
+  "target_class": 1,
+  "versions": [
+    {
+      "file": "banknote_5pct.csv",
+      "rows": 500,
+      "class_0_rows": 475,
+      "class_1_rows": 25,
+      "class_1_percentage": 5
+    },
+    {
+      "file": "banknote_10pct.csv",
+      "rows": 500,
+      "class_0_rows": 450,
+      "class_1_rows": 50,
+      "class_1_percentage": 10
+    },
+    {
+      "file": "banknote_20pct.csv",
+      "rows": 500,
+      "class_0_rows": 400,
+      "class_1_rows": 100,
+      "class_1_percentage": 20
+    }
+  ]
+}

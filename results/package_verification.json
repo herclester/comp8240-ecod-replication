@@ -1,0 +1,190 @@
+{
+  "status": "passed",
+  "package": "pyod==3.6.5",
+  "python": "3.13.7",
+  "method": "Imported ECOD from an extracted public PyPI wheel before the editable checkout on sys.path; reused existing data and seed-42 splits. No saved experiment results were overwritten.",
+  "scope": "23 seed-42 datasets; other split seeds and complete fresh dependency installation were not rerun.",
+  "wheel_sha256": "59f259a58b145404d97f7ab7b094c5f4c64f821ab02ceb210cb3bd63b65be83e",
+  "normalized_source_matches": [
+    "pyod/models/ecod.py",
+    "pyod/models/base.py",
+    "pyod/utils/stat_models.py",
+    "pyod/utils/utility.py"
+  ],
+  "tolerance": {
+    "atol": 1e-10,
+    "rtol": 0
+  },
+  "checks": [
+    {
+      "dataset": "arrhythmia",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 181,
+      "maximum_absolute_score_error": 5.684341886080802e-14
+    },
+    {
+      "dataset": "breastw",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 274,
+      "maximum_absolute_score_error": 3.552713678800501e-15
+    },
+    {
+      "dataset": "cardio",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 733,
+      "maximum_absolute_score_error": 7.105427357601002e-15
+    },
+    {
+      "dataset": "ionosphere",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 141,
+      "maximum_absolute_score_error": 7.105427357601002e-15
+    },
+    {
+      "dataset": "lympho",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 60,
+      "maximum_absolute_score_error": 1.7763568394002505e-15
+    },
+    {
+      "dataset": "mammography",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 4474,
+      "maximum_absolute_score_error": 3.552713678800501e-15
+    },
+    {
+      "dataset": "optdigits",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 2087,
+      "maximum_absolute_score_error": 7.105427357601002e-15
+    },
+    {
+      "dataset": "pima",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 308,
+      "maximum_absolute_score_error": 3.552713678800501e-15
+    },
+    {
+      "dataset": "satellite",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 2574,
+      "maximum_absolute_score_error": 2.842170943040401e-14
+    },
+    {
+      "dataset": "satimage-2",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 2322,
+      "maximum_absolute_score_error": 2.842170943040401e-14
+    },
+    {
+      "dataset": "shuttle",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 4000,
+      "maximum_absolute_score_error": 7.105427357601002e-15
+    },
+    {
+      "dataset": "speech",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 1475,
+      "maximum_absolute_score_error": 0.0
+    },
+    {
+      "dataset": "wbc",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 152,
+      "maximum_absolute_score_error": 7.105427357601002e-15
+    },
+    {
+      "dataset": "wine",
+      "kind": "original",
+      "seed": 42,
+      "scored_rows": 52,
+      "maximum_absolute_score_error": 3.552713678800501e-15
+    },
+    {
+      "dataset": "banknote_10pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 200,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "banknote_20pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 200,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "banknote_5pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 200,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "synthetic_extreme_10pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 400,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "synthetic_extreme_20pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 400,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "synthetic_extreme_5pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 400,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "synthetic_relationship_10pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 400,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "synthetic_relationship_20pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 400,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "synthetic_relationship_5pct",
+      "kind": "extension",
+      "seed": 42,
+      "scored_rows": 400,
+      "maximum_absolute_score_error": 1.7763568394002505e-15,
+      "maximum_absolute_contribution_error": 4.440892098500626e-16
+    }
+  ]
+}

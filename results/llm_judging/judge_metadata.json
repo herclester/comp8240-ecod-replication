@@ -1,0 +1,8 @@
+{
+  "model": "GPT-6",
+  "exact_model_variant": null,
+  "run_date": "2026-11-09",
+  "timezone": "Australia/Sydney",
+  "source": "User-provided judge model and run date",
+  "limitation": "Exact model variant unavailable; time of day not recorded."
+}
